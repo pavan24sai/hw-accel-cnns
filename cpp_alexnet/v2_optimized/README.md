@@ -67,6 +67,7 @@ Implements data buffering and reuse:
 1. **Buffer Structure**: Dedicated buffers for input, weights, and output.
 2. **Proper Accumulation**: Ensures correct result accumulation across tiles.
 3. **ReLU Application**: Single application after all accumulation is complete.
+
 This makes more sense for FPGA targeting, while running HLS.
 
 ## 3. Customization
