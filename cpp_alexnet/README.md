@@ -7,6 +7,9 @@ This repo contains the class-based C++ implementation of the AlexNet model.
 - The idea is to optimize this implementation for FPGA targeting, by leveraging High-Level Synthesis (HLS) workflows.
 
 ## Version History
+### 3. v3_hls_compatible
+[v3_hls_compatible](./v3_hls_compatible) implements the HLS compatible C++ code for generating the RTL IP for the accelerator. It contains all the necessary HLS_PRAGMAS to generate the RTL IP as required. Vitis HLS is the tool used for running the HLS.
+
 ### 2. v2_optimized
 [v2_optimized](./v2_optimized) implements an optimized version by incorporating the techniques illustrated in "[Optimizing FPGA-based Accelerator Design for Deep Convolutional Neural Networks](https://dl.acm.org/doi/10.1145/2684746.2689060)".
 
