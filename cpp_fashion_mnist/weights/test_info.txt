@@ -1,0 +1,3 @@
+# Test image information
+# Format: filename expected_class class_name
+test_image_real.bin 9 Ankle boot
